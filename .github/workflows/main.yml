@@ -1,8 +1,8 @@
-name:
+name: Inline Python Hello World
 
 on:
   push:
-    branches: [ "main" ]
+    branches: [ "master" ]
   workflow_dispatch:
 
 jobs: 
