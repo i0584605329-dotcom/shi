@@ -1,0 +1,13 @@
+name:
+
+on:
+  push:
+    branches: [ "main" ]
+  workflow_dispatch:
+
+jobs: 
+  run-inline:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Execute Inline Python
+        run: python -c "print('Hello World!')"
